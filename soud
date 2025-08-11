@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Community</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Community</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the Music Community</h2>
+            <p>Discover new music and connect with artists!</p>
+        </section>
+
+        <section id="music">
+            <h2>Music Tracks</h2>
+            <div class="music-container">
+                <audio controls>
+                    <source src="path/to/your/musicfile.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Track Title</p>
+            </div>
+        </section>
+
+        <section id="videos">
+            <h2>Video Reels</h2>
+            <div class="video-container">
+                <video width="320" height="240" controls>
+                    <source src="path/to/your/videofile.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Video Title</p>
+            </div>
+        </section>
+
+        <section id="community">
+            <h2>Community Discussions</h2>
+            <div id="discussion-container"></div>
+            <input type="text" id="discussion-input" placeholder="Join the discussion...">
+            <button id="post-button">Post</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Music Community</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
