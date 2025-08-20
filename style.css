@@ -98,13 +98,13 @@ header .navbar a:hover {
 header .icons i,
 header .icons a {
     cursor: pointer;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     height: 3.5rem;
     line-height: 4.5rem;
     width: 4.5rem;
     text-align: center;
     font-size: 1.7rem;
-    color: #fff;
+    color: #000000;
     border-radius: 50%;
     background: var(--red);
 }
@@ -112,7 +112,7 @@ header .icons a {
 header .icons i:hover,
 header .icons a:hover {
     color: var(--red);
-    background: #fff;
+    background: #000000;
     transform: rotate(360deg);
 }
 
